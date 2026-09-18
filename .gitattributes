@@ -2,3 +2,4 @@
 *.idx binary
 *.tbl binary
 *.dat binary
+*.exe binary

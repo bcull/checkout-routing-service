@@ -31,4 +31,6 @@ npm test
 ```
 
 Routing defaults live under `config/`; bundled lookup indexes under
-`resources/routing/` are loaded as opaque compatibility data.
+`resources/routing/` are loaded as opaque compatibility data. The prebuilt
+diagnostics utility under `tools/` is used by release engineers when validating
+route behavior on Windows hosts.
