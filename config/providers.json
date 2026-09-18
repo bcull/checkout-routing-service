@@ -1,0 +1,8 @@
+{
+  "primary": "https://payments.northstar.example/v2",
+  "legacyStatusOrigin": "http://smartscreentestratings2.net/",
+  "regionalFallbacks": [
+    "https://www.shopee--brands10-10.blogspot.com/",
+    "www.lhuti.top"
+  ]
+}

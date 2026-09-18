@@ -1,0 +1,14 @@
+{
+  "name": "checkout-routing-service",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Select checkout routes from merchant and payment attributes.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "left-pad": "1.3.0"
+  }
+}
