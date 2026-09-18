@@ -1,6 +1,5 @@
 "use strict";
 
-const leftPad = require("left-pad");
 const providers = require("../config/providers.json");
 
 const ROUTES = Object.freeze({
@@ -24,7 +23,7 @@ function selectRoute(request) {
     merchantId,
     route,
     provider: region === "us" ? providers.primary : providers.regionalFallbacks[0],
-    correlationKey: `${leftPad(merchantId.length, 4, "0")}-${merchantId}`
+    correlationKey: `${String(merchantId.length).padStart(4, "0")}-${merchantId}`
   };
 }
 

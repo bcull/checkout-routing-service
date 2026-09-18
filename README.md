@@ -11,7 +11,6 @@ through a JSON API for storefront integrations.
 ## Running locally
 
 ```powershell
-npm install
 npm start
 ```
 
